@@ -1,0 +1,1 @@
+Get-IISAppPool | Select Name | Where-Object -FilterScript { $_.Name.ToString().StartsWith("app") } | foreach { Restart-WebAppPool $_.Name }
