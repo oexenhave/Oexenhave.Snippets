@@ -8,7 +8,7 @@ using ServiceStack.Text;
 
 if (args.Length != 2)
 {
-    Console.WriteLine("Please provide tenant URL and PAT as parameters. E.g. AzureDevOpsFetch.exe https://dev.azure.com/[tenantId] pgkxwdc7ikjm3jdvbiag6r7ylmbyxpahkty5ifr4mhls4tfpp7aa");
+    Console.WriteLine("Please provide tenant URL and PAT as parameters.");
     Console.WriteLine("Example:");
     Console.WriteLine("   Oexenhave.AzureDevOpsFetch.exe https://dev.azure.com/[tenantId] pgkxwdc7ikjm3jdvbiag6r7ylmbyxpahkty5ifr4mhls4tfpp7aa");
     Console.WriteLine("");
